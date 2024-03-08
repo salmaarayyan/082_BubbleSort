@@ -73,14 +73,15 @@ void display() {
     cout << endl;
     cout << endl;
 }   
-    
-
-
-
 
 
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
+    bubbleSortArray();
+    display();
+
+    system("pause");
+    return 0;
 }
